@@ -73,6 +73,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 # Udfps
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
